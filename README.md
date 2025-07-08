@@ -12,8 +12,8 @@ We use a hybrid dataset consisting of:
 ## Environment & Training Settings
 - Python 3.9.7 
 - CUDA 11.8 
-- Ultralytics YOLO base (YOLOv11 customized)
-Training configuration:
+- Ultralytics YOLO base
+- Training configuration:
 - Input size: 640 × 640 
 - Batch size: 64
 - Epochs: 150
