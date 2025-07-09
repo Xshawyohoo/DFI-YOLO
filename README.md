@@ -14,11 +14,6 @@ We use a hybrid dataset consisting of:
 - CUDA 11.8 
 - Ultralytics YOLO base
 - Input size: 640 × 640 
-- Batch size: 64
-- Epochs: 150
-- Initial LR: 1e-3
-- Weight decay: 5e-4
-- Learning rate scheduler: Cosine annealing
 
 ## Training Example
 python train.py --img 640 --batch 64 --epochs 130 --data 'your datasets.yaml' --cfg 'yolo11.yaml' --weights '' --device 0
